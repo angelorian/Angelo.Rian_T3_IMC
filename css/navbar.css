@@ -1,0 +1,206 @@
+/* 
+.container-header: Estiliza o cabeçalho do contêiner. 
+*/
+.container-header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px rgba(1, 228, 20, 0.449); /* Adiciona uma sombra ao cabeçalho */
+}
+
+/* 
+.container-header-logo: Estiliza o logo dentro do cabeçalho.
+*/
+.container-header-logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left; /* Alinha o conteúdo do logo à esquerda */
+}
+
+/* 
+.container-header-logo-espacamento: Estiliza um espaço de logo dentro do cabeçalho.
+*/
+.container-header-logo-espacamento {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Distribui o espaço uniformemente entre os elementos filhos */
+}
+
+/* 
+.botao_nutrivida: Estiliza um botão com o tema "Nutrivida".
+*/
+.botao_nutrivida {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s, box-shadow 0.2s; /* Adiciona uma transição suave de animação */
+}
+
+/* 
+.botao_nutrivida:hover: Estiliza a interação de hover para o botão "Nutrivida".
+*/
+.botao_nutrivida:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse sobre ele */
+}
+
+/* 
+.container-header-logo img: Estiliza a imagem dentro do logo do cabeçalho.
+*/
+.container-header-logo img {
+    height: 100%;
+    width: 60%;
+}
+
+/* 
+.container-header-logo h3: Estiliza o texto do logo do cabeçalho.
+*/
+.container-header-logo h3 {
+    font-size: 1.120rem;
+    line-height: 1.0625rem;
+    font-weight: 600; 
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: #000000;
+    text-align: center;
+}
+
+/* 
+.container-header-navbar: Estiliza a barra de navegação dentro do cabeçalho.
+*/
+.container-header-navbar {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha os elementos da barra de navegação à esquerda */
+}
+
+/* 
+.container-header-navbar-espacamento: Estiliza um espaço de navegação dentro do cabeçalho.
+*/
+.container-header-navbar-espacamento {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+/* 
+.container-header-navbar-espacamento > li: Estiliza os itens de lista dentro do espaço de navegação.
+*/
+.container-header-navbar-espacamento > li {
+    list-style: none;
+    margin-left: 5%; /* Define a margem esquerda entre os itens de lista */
+}
+
+/* 
+.container-header-navbar-espacamento > li > a: Estiliza os links dentro dos itens de lista da barra de navegação.
+*/
+.container-header-navbar-espacamento > li > a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+/* 
+.botao_inicio: Estiliza o botão de início.
+*/
+.botao_inicio{
+    border: solid 7px rgba(11, 243, 107, 0.958);
+    border-radius: 30px;
+    margin: 20px ;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgba(11, 243, 107, 0.958);
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; /* Adiciona uma transição suave de animação */
+}
+
+/* 
+.botao_inicio:hover: Estiliza a interação de hover para o botão "Início".
+*/
+.botao_inicio:hover{
+    background-color: rgba(11, 243, 107, 0.958);
+    color: #000000;
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse sobre ele */
+}
+
+/* 
+.botao_calculadora: Estiliza o botão da calculadora.
+*/
+.botao_calculadora{
+    border: solid 7px rgba(11, 243, 107, 0.958);
+    border-radius: 30px;
+    margin: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgba(11, 243, 107, 0.958);
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; /* Adiciona uma transição suave de animação */
+}
+
+/* 
+.botao_calculadora:hover: Estiliza a interação de hover para o botão da calculadora.
+*/
+.botao_calculadora:hover{
+    background-color: rgba(11, 243, 107, 0.958);
+    color: #000000;
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse sobre ele */
+}
+
+/* 
+.search-container: Estiliza o contêiner de pesquisa.
+*/
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(11, 243, 107, 0.958);
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #fff;
+    margin-left: 50px; /* Define a margem esquerda do contêiner de pesquisa */
+}
+
+/* 
+.search-container input: Estiliza a entrada de texto dentro do contêiner de pesquisa.
+*/
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/* 
+.search-container button: Estiliza o botão dentro do contêiner de pesquisa.
+*/
+.search-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 
+.search-container .search-icon: Estiliza o ícone de pesquisa dentro do contêiner de pesquisa.
+*/
+.search-container .search-icon {
+    width: 20px;
+    height: 20px;
+}
+

@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> NutriVida - Calculadora </title>
+    <title>NutriVida - Calculadora</title>
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="icon" href="../img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..
     800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,
@@ -16,14 +18,14 @@
     <header class="container-header">
         <div class="container-header-logo">
             <div class="container-header-logo-espacamento">
-                <img src="../img/logo.png" alt="">
+                <img src="/img/logo.png" alt="">
                 <a href="../index.html"><button class="botao_nutrivida"><h3>NutriVida</h3></button></a>
             </div>
         </div>
         <nav class="container-header-navbar">
             <ul class="container-header-navbar-espacamento">
                 <li><a href="../index.html"><button class="botao_inicio">Início</button></a></li>
-                <li><a class="ativo" href="calculadora.html"><button class="botao_calculadora">Calculadora</button></a></li>
+                <li><a href="calculadora.html"><button class="botao_calculadora">Calculadora</button></a></li>
             </ul>
         </nav>
     </header>
@@ -34,25 +36,32 @@
             </div>
             <div class="container-main-conteudo-bloco">
                 <div class="container-main-conteudo-bloco-texto">
-                    <p>O IMC é muito mais do que um número. É um guia que fornece insights sobre como seu peso se
+                    <p>
+                        O <b>IMC</b> é muito mais do que um número. É um guia que fornece insights sobre como seu peso
+                        se
                         relaciona com sua altura, abrindo portas para uma compreensão holística da saúde. Essa medida
                         não só categoriza, mas serve como ponto de partida para estratégias de bem-estar e mudanças
                         positivas no estilo de vida. Ao descobrir seu IMC, você ganhará uma compreensão inicial de sua
                         saúde física, permitindo que tome medidas informadas em direção a uma vida mais equilibrada.
                         Explore essa ferramenta valiosa e descubra as nuances da composição do seu corpo para uma
-                        jornada mais consciente rumo ao bem-estar.</p>
+                        jornada mais consciente rumo ao bem-estar.
+                    </p>
                 </div>
                 <div class="container-main-conteudo-bloco-imagem">
-                    <img src="../img/habitosalimentares.jpg" alt="">
+                    <!-- Adicione uma imagem relacionada, se desejar -->
+                    <img src="../img/imc.jpg" alt="">
                 </div>
             </div>
-            <div class="container-main-conteudo-formula">
-                <div class="container-main-conteudo-formula-imagem">
-                    <img src="../img/formula_imc.jpg" alt="">
+            <div class="container-main-conteudo-bloco-imc">
+                <div class="container-main-conteudo-bloco-texto-imc">
+                    <p>
+                        O IMC é calculado dividindo o peso (em quilogramas) pela altura ao quadrado (em metros). A
+                        fórmula é expressa como:
+                    </p>
                 </div>
-                <div class="container-main-conteudo-formula-descricao">
-                    <p>O IMC é calculado dividindo o peso (em quilogramas) pela altura ao quadrado (em metros). A
-                        fórmula é expressa como:</p>
+                <div class="container-main-conteudo-bloco-imagem-imc">
+                    <!-- Adicione uma imagem relacionada, se desejar -->
+                    <img src="../img/formula_imc.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -119,6 +128,9 @@
             </div>
         </section>
     </main>
+    <footer class="container-footer">
+        <!-- Seu rodapé -->
+    </footer>
     <script src="../js/calculadora.js"></script>
 </body>
 

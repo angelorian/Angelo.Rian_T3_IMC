@@ -1,11 +1,22 @@
+/* 
+@import url(): Importa as fontes do Google Fonts para o documento.
+*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* 
+* : Estiliza todos os elementos para que tenham padding e margem zero e a caixa seja dimensionada incluindo o preenchimento e a borda.
+*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Helvetica Now Display DW", sans-serif; /* Define a fonte padrão para o documento */
 }
 
+/* 
+.container: Estiliza o contêiner principal.
+*/
 .container {
   height: auto;
   width: 100vw;
@@ -13,169 +24,66 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  overflow-x: hidden;
+  font-family: "Roboto", sans-serif; /* Define a fonte padrão para o contêiner */
+  position: relative; /* Define a posição como relativa */
+  overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
 }
 
-.container-header {
-  height: 15vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 3px 3px 3px 3px rgba(1, 228, 20, 0.449);
-}
-
-.container-header-logo {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-
-.container-header-logo-espacamento {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.botao_nutrivida {
-  background-color: #ffffff;
-  color: white;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: none;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.botao_nutrivida:hover {
-  transform: scale(1.1);
-}
-
-.container-header-logo img {
-  height: 100%;
-  width: 80%;
-}
-
-.container-header-logo h3 {
-  font-family: "Helvetica Now Display DW", sans-serif;
-  font-size: 1.120rem;
-  line-height: 1.0625rem;
-  font-weight: 600; 
-  text-transform: uppercase;
-  letter-spacing: 0.4em;
-  color: #000000;
-  text-align: center;
-}
-
-.container-header-navbar {
-  width: 55%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-
-.container-header-navbar-espacamento {
-  width: 20%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-weight: 700;
-}
-
-.container-header-navbar-espacamento > li {
-  list-style: none;
-  margin-left: 5%;
-}
-
-.container-header-navbar-espacamento > li > a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 0.8rem;
-}
-
-
-.botao_inicio{
-  font-family: "Helvetica Now Display DW", sans-serif;
-  border: solid 3px rgba(11, 243, 107, 0.958);
-  border-radius: 30px;
-  margin: 15px;
-  font-weight: 700;
-  font-size: 15px;
-  color: #000000;
-  background-color: rgba(11, 243, 107, 0.958);
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-}
-
-.botao_inicio:hover{
-  background-color: rgba(11, 243, 107, 0.958);
-  color: #000000;
-  transform: scale(1.2)
-}
-
-.botao_calculadora{
-  border: solid 3px rgba(11, 243, 107, 0.958);
-  border-radius: 30px;
-  margin: 15px;
-  font-weight: 700;
-  font-size: 15px;
-  color: #000000;
-  background-color: rgba(11, 243, 107, 0.958);
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-}
-
-.botao_calculadora:hover{
-  background-color: rgba(11, 243, 107, 0.958);
-  color: #000000;
-  transform: scale(1.2)
-}
-
-
+/* 
+.container-main: Estiliza o contêiner principal do conteúdo.
+*/
+/*
 .container-main {
   height: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: relative; 
   flex-direction: column;
 }
+/*
 
+/* 
+.container-main-conteudo: Estiliza o conteúdo principal.
+*/
 .container-main-conteudo {
+  display: flex;
+  flex-direction: column;
   height: auto;
   width: 95%;
   margin-top: 40px; /* Adiciona margem superior */
   margin-bottom: 40px; /* Adiciona margem inferior */
 }
 
+/* 
+.container-main-conteudo-titulo: Estiliza o título do conteúdo.
+*/
 .container-main-conteudo-titulo {
-  width: 100%;
+  align-self: center;
+  width: 80%;
   height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 3rem; /* Adiciona margem inferior */
+  background-color: rgba(1, 228, 20, 0.449); /* Define a cor de fundo */
 }
 
+/* 
+.container-main-conteudo-titulo h1: Estiliza o texto do título do conteúdo.
+*/
 .container-main-conteudo-titulo h1 {
-  font-family: "Helvetica Now Display DW", sans-serif;
-  font-weight: 750; 
-  letter-spacing: -0.01em;
-  color: #0f141e;
+  font-weight: 750;
+  color: #000000; /* Define a cor do texto */
   font-size: 2.5rem;
   line-height: 3.5rem;
-  padding-top: 1px;
-  padding-bottom: 4px;
-  text-align: left;
+  font-family: "Montserrat", sans-serif; /* Define a fonte */
 }
 
+/* 
+.container-main-conteudo-bloco: Estiliza um bloco de conteúdo.
+*/
 .container-main-conteudo-bloco {
   height: auto;
   width: 100%;
@@ -184,80 +92,105 @@
   justify-content: space-between; /* Alinha o texto e a imagem */
 }
 
+/* 
+.container-main-conteudo-bloco-texto: Estiliza o bloco de texto.
+*/
 .container-main-conteudo-bloco-texto {
+  justify-self: flex-start;
+  align-self: flex-start;
   width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  padding-left: 10rem; /* Adiciona preenchimento à esquerda */
 }
 
+/* 
+.container-main-conteudo-bloco-texto p: Estiliza o texto dentro do bloco de texto.
+*/
 .container-main-conteudo-bloco-texto p {
-  font-family: "Helvetica Now Display DW", sans-serif;
-  font-weight: 600; 
+  font-weight: 500;
   letter-spacing: -0.01em;
-  color: #0f141e;
-  font-size: 1rem;
-  padding-top: 1px;
+  color: #0f141e; /* Define a cor do texto */
+  padding-top: px;
   padding-bottom: 4px;
-  text-align: justify;
+  text-align: start; /* Alinha o texto à esquerda */
 }
 
+/* 
+.container-main-conteudo-bloco-imagem: Estiliza o bloco de imagem.
+*/
 .container-main-conteudo-bloco-imagem {
   width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
 }
 
-.container-main-conteudo-bloco
+/* 
+.container-main-conteudo-bloco-imagem img: Estiliza a imagem dentro do bloco de imagem.
+*/
+.container-main-conteudo-bloco-imagem img {
+  height: 90%; /* Ajusta a altura da imagem */
+  width: 70%; /* Ajusta a largura da imagem */
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* 
+.container-main-conteudo-bloco-imagem img:hover: Estiliza a imagem ao passar o mouse sobre ela.
+*/
+.container-main-conteudo-bloco-imagem img:hover {
+  transform: scale(1.0); /* Aumenta ligeiramente o tamanho da imagem */
+}
+
+/* 
+.container-main-conteudo-bloco-imc: Estiliza o bloco de IMC.
+*/
+.container-main-conteudo-bloco-imc {
+  align-self: center;
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem; /* Adiciona margem superior */
+}
+
+/* 
+.container-main-conteudo-bloco-texto-imc: Estiliza o texto dentro do bloco de IMC.
+*/
+.container-main-conteudo-bloco-texto-imc {
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+.container-main-conteudo-bloco-texto-imc p: Estiliza o texto dentro do bloco de IMC.
+*/
+.container-main-conteudo-bloco-texto-imc p {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #0f141e; /* Define a cor do texto */
+  padding-top: 1px;
+  padding-bottom: 4px;
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* 
+.container-main-conteudo-bloco-imagem-imc: Estiliza o bloco de imagem do IMC.
+*/
+.container-main-conteudo-bloco-imagem-imc {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+.container-main-conteudo-bloco-imc-imagem img: Estiliza a imagem dentro do bloco de imagem do IMC.
+*/
+.container-main-conteudo-bloco-imc
 -imagem img {
   height: 90%; /* Ajusta a altura da imagem */
   width: 90%; /* Ajusta a largura da imagem */
   object-fit: contain;
-}
-
-
-.container-main-conteudo-bloco {
-  height: auto;
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container-main-conteudo-bloco-texto {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  margin-left: 2%;
-  float: left; /* Alinha o texto à esquerda e a imagem ficará à direita */
-}
-
-.container-main-conteudo-bloco-imagem {
-  height: 90%;
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float: right; /* Alinha a imagem à direita */
-}
-
-.container-main-conteudo-bloco-imagem img {
-  height: 80%;
-  width: 90%;
-  object-fit: contain;
-}
-
-.container-main-conteudo-bloco-imagem img {
-  height: 90%;
-  width: 90%;
-  object-fit: contain;
-  margin-top: 20px; /* Adiciona um espaçamento superior de 20 pixels */
-  transition: transform 0.5s ease; /* Adiciona uma transição suave para o efeito de pulsação */
-}
-
-.container-main-conteudo-bloco-imagem img:hover {
-  transform: scale(1.1); /* Aumenta ligeiramente o tamanho da imagem ao passar o mouse */
 }

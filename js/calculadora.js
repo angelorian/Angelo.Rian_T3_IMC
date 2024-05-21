@@ -190,3 +190,4 @@ const formatarInputAltura = (input) => {
 
   input.value = valor;
 };
+
