@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: center;
     box-shadow: 3px 3px 3px 3px rgba(1, 228, 20, 0.449); /* Adiciona uma sombra ao cabeçalho */
+    background-color: #fff;
+    position: fixed;
+    top: 0;
 }
 
 /* 

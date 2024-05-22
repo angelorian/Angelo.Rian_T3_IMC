@@ -10,7 +10,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: "Helvetica Now Display DW", sans-serif; /* Define a fonte padrão para o documento */
 }
 
@@ -18,7 +17,7 @@
 .container: Estiliza o contêiner principal.
 */
 .container {
-  height: auto;
+  height: 270vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -88,8 +87,16 @@
   height: auto;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between; /* Alinha o texto e a imagem */
+}
+
+.container-main-conteudo-bloco-conteudo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 /* 
@@ -113,6 +120,10 @@
   padding-top: px;
   padding-bottom: 4px;
   text-align: start; /* Alinha o texto à esquerda */
+}
+
+#a100cem {
+    width: 80%;
 }
 
 /* 
