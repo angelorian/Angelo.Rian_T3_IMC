@@ -1,3 +1,18 @@
+
+
+
+.container{
+  height: 298vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif; /* Define a fonte padrão para o contêiner */
+  position: relative; /* Define a posição como relativa */
+  overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+}
+
 /* 
 .container-main-calculadora: Estiliza o contêiner principal da calculadora.
 */
