@@ -2,7 +2,7 @@
 .container-main-calculadora: Estiliza o contêiner principal da calculadora.
 */
 .container-main-calculadora {
-  height: 100vh;
+  height: 107vh;
   width: 100%;
   display: flex;
   align-items: center;
