@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-pagina-receitas{
+    height: 470vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif; /* Define a fonte padrão para o contêiner */
+    position: relative; /* Define a posição como relativa */
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+  }
+
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos das receitas */
+.receitas-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.receita {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.receita-imagem {
+    max-height: 300px; /* Altura máxima da imagem */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.receita-imagem img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.receita-imagem img:hover {
+    transform: scale(1.05); /* Aplica um efeito de escala ao passar o mouse */
+}
+
+.receita-texto {
+    padding: 1.5rem;
+}
+
+.receita ul, .receita ol {
+    padding-left: 1.5rem;
+}
+
+.receita li {
+    margin-bottom: 0.5rem;
+}
+
+.receita li strong {
+    font-weight: 600;
+}
+
+.receita h2 {
+    margin-top: 0;
+}

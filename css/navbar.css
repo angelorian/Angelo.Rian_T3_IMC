@@ -1,3 +1,4 @@
+
 /* 
 .container-header: Estiliza o cabeçalho do contêiner. 
 */
@@ -13,6 +14,7 @@
     top: 0;
 }
 
+
 /* 
 .container-header-logo: Estiliza o logo dentro do cabeçalho.
 */
@@ -20,7 +22,7 @@
     width: 30%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: left; /* Alinha o conteúdo do logo à esquerda */
 }
 
@@ -154,7 +156,7 @@
     color: #000000;
     background-color: rgba(11, 243, 107, 0.958);
     cursor: pointer;
-    width: 100%;
+    width: 80%;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; /* Adiciona uma transição suave de animação */
 }
 
@@ -166,6 +168,29 @@
     color: #000000;
     transform: scale(1.2); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse sobre ele */
 }
+
+.botao_receitas{
+    border: solid 7px rgba(11, 243, 107, 0.958);
+    border-radius: 30px;
+    margin: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgba(11, 243, 107, 0.958);
+    cursor: pointer;
+    width: 80%;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; /* Adiciona uma transição suave de animação */
+}
+
+/* 
+.botao_outra:hover: Estiliza a interação de hover para o botão da calculadora.
+*/
+.botao_receitas:hover{
+    background-color: rgba(11, 243, 107, 0.958);
+    color: #000000;
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse sobre ele */
+}
+
 
 /* 
 .search-container: Estiliza o contêiner de pesquisa.

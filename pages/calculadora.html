@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NutriVida - Calculadora</title>
+    <title>NutriVida - Calcular IMC</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/calculadora.css">
     <link rel="stylesheet" href="../css/navbar.css">
@@ -14,7 +14,7 @@
     300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body class="container">
+<body class="container-pagina-calculadora">
     <header class="container-header">
         <div class="container-header-logo">
             <div class="container-header-logo-espacamento">
@@ -26,7 +26,15 @@
             <ul class="container-header-navbar-espacamento">
                 <li><a href="../index.html"><button class="botao_inicio">Início</button></a></li>
                 <li><a href="#calculadora"><button class="botao_calculadora">Calculadora</button></a></li>
-                <!--<li><a href="outra.html"><button class="botao_outra">Outra</button></a></li>-->
+                <li><a href="receitas.html"><button class="botao_receitas">Receitas</button></a></li>
+                <li>
+                    <div class="search-container">
+                        <input type="text" placeholder="Buscar...">
+                        <button type="submit">
+                            <img src="../img/lupa.png" alt="Lupa" class="search-icon">
+                        </button>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -52,6 +60,8 @@
                     <!-- Adicione uma imagem relacionada, se desejar -->
                     <img src="../img/imc.jpg" alt="">
                 </div>
+                <br>
+                <br>
                 <div class="container-main-conteudo-bloco-imagem">
                     <!-- Adicione uma imagem relacionada, se desejar -->
                     <img src="../img/tabela_imc.jpg" alt="">
@@ -133,9 +143,6 @@
             </div>
         </section>
     </main>
-    <footer class="container-footer">
-        <!-- Seu rodapé -->
-    </footer>
     <script src="../js/calculadora.js"></script>
 </body>
 

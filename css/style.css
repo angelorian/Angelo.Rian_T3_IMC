@@ -17,7 +17,7 @@
 .container: Estiliza o contêiner principal.
 */
 .container-pagina {
-  height: 427vh;
+  height: 429vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -28,20 +28,18 @@
   overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
 }
 
-/* 
-.container-main: Estiliza o contêiner principal do conteúdo.
-*/
-/*
-.container-main {
-  height: auto;
-  width: 100%;
+.container-pagina-receitas {
+  height: 125vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; 
   flex-direction: column;
+  font-family: "Roboto", sans-serif; /* Define a fonte padrão para o contêiner */
+  position: relative; /* Define a posição como relativa */
+  overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
 }
-/*
+
 
 /* 
 .container-main-conteudo: Estiliza o conteúdo principal.
