@@ -17,7 +17,7 @@
 .container: Estiliza o contêiner principal.
 */
 .container-pagina {
-  height: 429vh;
+  height: 436vh;
   width: 100vw;
   display: flex;
   align-items: center;
